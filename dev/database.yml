@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://${MARIADB_HOST:172.17.0.1}/hmw?useUnicode=true&characterEncoding=utf-8&useSSL=false
+    username: hmw
+    password: hmw
